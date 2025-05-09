@@ -11,7 +11,7 @@ st.set_page_config(layout="wide",page_title="Movie Recommendation", page_icon=":
 h1, h2, h3 = st.columns([2, 4, 1])
 with h2:
     st.header("Movie Recommendation System")
-#st.markdown("Rana Karmakar")
+#st.markdown("Ajaykumar J")
 df = pd.read_csv("movies.csv")
 selected_features = ['genres', 'keywords', 'tagline', 'cast', 'director']
 for feature in selected_features:
@@ -140,21 +140,20 @@ with ex1:
             "technologies are needed that can dramatically improve the scalability of recommender systems.")
 with ex3:
     with st.expander("About Developer"):
-        st.markdown("Rana Karmakar")
+        st.markdown("Ajaykumar j")
         st.write("I have a deep interest in Artificial Intelligence and Machine Learning ever since I got to know "
                  "about it; the sci-fi films, comics and stories have always fascinated me. I love to learn new "
                  "skills to keep myself up-to-date with the corporate world. I believe in maintaining a work-life "
                  "balance while learning and working upon different fields of interest.I have had a taste of many "
                  "different technologies: creating Websites, Software Development, Data Analysis, "
                  "creating Machine Learning models, Cloud Computing and Developing complex programs and more. "
-                 "Feel free to give Feedback at ranakarmakar027@gmail.com")
+                 "Feel free to give Feedback at ajaykumarjaganathan@gmail.com")
 with ex2:
     with st.expander("Contact"):
-        st.markdown("ranakarmakar027@gmail.com")
-        st.write("[Website](https://rana-reflective-porcupine-pf.eu-gb.mybluemix.net/)")
-        st.write("[LinkedIn](https://www.linkedin.com/in/rana-karmakar-0972641a6)")
+        st.markdown("ajaykumarjaganathan@gmail.com")
+      
         st.write("Other Apps[Movie Recommendation System]("
-                 "https://share.streamlit.io/ranakarmakar/streamlit_movie_recommendation/main/app.py)")
+                 "hhttps://github.com/ajaykumarjaganathan/Movie_Recommendation-sys/edit/main/app.py)")
         st.write("Other Apps[Brain Tumor Detection]("
-                 "https://share.streamlit.io/ranakarmakar/brain_tumor_classification/main/tumor.py)")
+                 "https://share.streamlit.io/ajaykumarj/brain_tumor_classification/main/tumor.py)")
 
